@@ -1,0 +1,47 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs and runtime files
+*.log
+*.pid
+
+# Generated media
+*.wav
+*.mp3
+*.midi
+*.mid
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Docker/local tooling
+.dockerignore.local
