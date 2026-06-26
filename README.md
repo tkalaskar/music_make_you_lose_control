@@ -1,4 +1,4 @@
-# AI Music Composer
+# music_make_you_lose_control
 
 AI Music Composer turns a plain-English music idea into a playable WAV composition using a local or API-backed LLM.
 
@@ -225,4 +225,4 @@ docker run -p 8501:8501 \
   -e OLLAMA_BASE_URL=http://your-ollama-host:11434 \
   ai-music-composer
 ```
-# music_make_you_lose_control
+
